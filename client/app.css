@@ -1,0 +1,28 @@
+.create {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin: 1rem;
+}
+.incard {
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.chosen {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin: 1rem;
+  padding: 1rem;
+}
+

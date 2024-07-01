@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="/client/app.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <div class="chosen">
+      <h1>Действия с пользователем</h1>
+      <div class="chosenOne"></div>
+      <input type="text" id="newName" placeholder="новое имя" />
+      <input type="text" id="newSurname" placeholder="новая фамилия" />
+      <button class="createUserBtn">Создать</button>
+      <button class="updateBtn">Редактировать</button>
+      <button class="deleteBtn">Удалить</button>
+    </div>
+
+    <div class="users">
+      <ol class="inner">
+
+      </ol>
+    </div>
+
+    <script src="/client/getUsers.js"></script>
+    <script src="/client/createUser.js"></script>
+    <script src="/client/getOneUser.js"></script>
+    <script src="/client/deleteUser.js"></script>
+    <script src="/client/updateUser.js"></script>
+  </body>
+</html>
